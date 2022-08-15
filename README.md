@@ -1,4 +1,4 @@
-# Information Ensemble Graph Contrastive Learning
+# Entropy Neural Estimation for Graph Contrastive Learning
 Contrastive learning has demonstrated the success of the neural estimation of mutual information between high-dimensional data. We use contrastive loss to train a parameter-shared graph encoder by two sampled subsets of the raw dataset. In each epoch of the training process, the contrastive loss guides the encoder in estimating the mutual information between the two subsets. The up bound of their mutual information is the information entropy of the raw dataset since the two subsets are sampled from the same raw dataset. Data sampling is based on bootstrapping, so using different subsets renders the graph encoder to integrate information of the raw dataset. Besides, we modify the contrastive loss for enhancing the representation ability of the graph encoder. The two subsets can be seen as two views of the raw dataset, so the scores of positive and negative pairs can be selected in the cross-view similarity matrix. The classic positive pairs only locate at the main diagonal of the cross-view similarity matrix, we further add more positive pairs in non-diagonal whose scores are high, and negative pairs are those who have low scores. Extensive experiments on several benchmark datasets have demonstrated that the proposed information ensemble graph contrastive learning algorithm achieves the state-of-the-art performance. We also perform extensive ablation analysis to demonstrate the effectiveness of the proposed contrastive loss.
 
 # Experiment
@@ -49,11 +49,10 @@ This code is heavily borrowed from the baseline [CCA-SSG](https://github.com/hen
 We appreciate it if you cite the following paper:
 ```
 @InProceedings{MaNeurIPS2022,
-  author =    {Yixuan Ma and Zhuolin Liao and Chenghua Liu and Kun Zhan},
-  title =     {Information ensemble graph contrastive learning},
-  booktitle = {NeurIPS},
-  year =      {2022},
-  pages =     {1413--1421}
+  author =    {Yixuan Ma and Xiaolin Zhang and Peng Zhang and Zhuolin Liao and Chenghua Liu and Kun Zhan},
+  title =     {Entropy Neural Estimation for Graph Contrastive Learning},
+  booktitle = {AAAI},
+  year =      {2023},
 }
 
 ```
