@@ -49,9 +49,9 @@ This code is heavily borrowed from the baseline [CCA-SSG](https://github.com/hen
 We appreciate it if you cite the following paper:
 ```
 @InProceedings{MaNeurIPS2022,
-  author =    {Yixuan Ma and Xiaolin Zhang and Peng Zhang and Zhuolin Liao and Chenghua Liu and Kun Zhan},
+  author =    {Yixuan Ma and Xiaolin Zhang and Peng Zhang and Kun Zhan},
   title =     {Entropy Neural Estimation for Graph Contrastive Learning},
-  booktitle = {AAAI},
+  booktitle = {ACM MM},
   year =      {2023},
 }
 
