@@ -1,0 +1,12 @@
+  NumNodes: 2708
+  NumEdges: 10556
+  NumFeats: 1433
+  NumClasses: 7
+  NumTrainingSamples: 140
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+Namespace(dataname='cora', gpu=1, epochs=40, lr1=0.001, lr2=0.01, wd1=0, wd2=0.0001, seed=42, n_layers=2, der=0.3, dfr=0.05, hid_dim=512, out_dim=512, top_k=10000, top_l=7320000, labmda=0.35, device='cuda:1')
+  Linear evaluation accuracy:0.8550
+Time:9.3856s
+
