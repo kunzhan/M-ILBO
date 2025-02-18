@@ -30,7 +30,6 @@ boto==2.49.0
 Bottleneck @ file:///tmp/build/80754af9/bottleneck_1607575130224/work
 brotlipy==0.7.0
 cached-property @ file:///tmp/build/80754af9/cached-property_1600785575025/work
-certifi==2021.10.8
 cffi @ file:///tmp/build/80754af9/cffi_1625814692085/work
 chardet @ file:///tmp/build/80754af9/chardet_1607706775000/work
 charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
